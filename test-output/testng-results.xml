@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="4" failed="2" total="8" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[<span style="color:#2A00FF">【info】com.first.utils.TestNGListener: 测试初始化</span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:#2A00FF">【info】com.first.uiframework.DriverFactory: 杀死chrome浏览器进程成功</span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:#2A00FF">【info】com.first.utils.TestNGListener: 【loginTest01】测试用例开始执行</span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:#2A00FF">【info】com.first.uiframework.DriverUtils: 打开网址：http://192.168.0.113:80/zentao</span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:#FF0000">【error】com.first.uiframework.DriverUtils: 元素：用户名输入框 识别异常</span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:#2A00FF">【info】com.first.uiframework.DriverUtils: 截图成功，图片保存路径为：F:\workspace\UITest\shot\findElementErrorImage_2017_03_26_18_46_03.png</span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<a target='_blank' href="file:F:\workspace\UITest\shot\findElementErrorImage_2017_03_26_18_46_03.png">]]>
+    </line>
+    <line>
+      <![CDATA[<img width="220" src="file:F:\workspace\UITest\shot\findElementErrorImage_2017_03_26_18_46_03.png" />    截图：C:\Users\ADMINI~1\AppData\Local\Temp\screenshot2683298712968072051.png]]>
+    </line>
+    <line>
+      <![CDATA[</a><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:#2A00FF">【info】com.first.utils.TestngRetry: 测试类：'com.first.utils.TestngRetry' 中的测试方法：'loginTest01' 执行失败，重试第 1 次</span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:#FF0000">【error】com.first.utils.TestNGListener: 【loginTest01】测试用例被跳过</span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:#2A00FF">【info】com.first.utils.TestNGListener: 【loginTest01】测试用例开始执行</span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:#2A00FF">【info】com.first.uiframework.DriverUtils: 打开网址：http://192.168.0.113:80/zentao</span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:#FF0000">【error】com.first.uiframework.DriverUtils: 元素：用户名输入框 识别异常</span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:#2A00FF">【info】com.first.uiframework.DriverUtils: 截图成功，图片保存路径为：F:\workspace\UITest\shot\findElementErrorImage_2017_03_26_18_46_35.png</span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<a target='_blank' href="file:F:\workspace\UITest\shot\findElementErrorImage_2017_03_26_18_46_35.png">]]>
+    </line>
+    <line>
+      <![CDATA[<img width="220" src="file:F:\workspace\UITest\shot\findElementErrorImage_2017_03_26_18_46_35.png" />    截图：C:\Users\ADMINI~1\AppData\Local\Temp\screenshot3987079852622025879.png]]>
+    </line>
+    <line>
+      <![CDATA[</a><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:#2A00FF">【info】com.first.utils.TestngRetry: 测试类：'com.first.utils.TestngRetry' 中的测试方法：'loginTest01' 执行失败，重试第 2 次</span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:#FF0000">【error】com.first.utils.TestNGListener: 【loginTest01】测试用例被跳过</span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:#2A00FF">【info】com.first.utils.TestNGListener: 【loginTest01】测试用例开始执行</span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:#2A00FF">【info】com.first.uiframework.DriverUtils: 打开网址：http://192.168.0.113:80/zentao</span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:#FF0000">【error】com.first.uiframework.DriverUtils: 元素：用户名输入框 识别异常</span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:#2A00FF">【info】com.first.uiframework.DriverUtils: 截图成功，图片保存路径为：F:\workspace\UITest\shot\findElementErrorImage_2017_03_26_18_47_07.png</span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<a target='_blank' href="file:F:\workspace\UITest\shot\findElementErrorImage_2017_03_26_18_47_07.png">]]>
+    </line>
+    <line>
+      <![CDATA[<img width="220" src="file:F:\workspace\UITest\shot\findElementErrorImage_2017_03_26_18_47_07.png" />    截图：C:\Users\ADMINI~1\AppData\Local\Temp\screenshot5559388342293990366.png]]>
+    </line>
+    <line>
+      <![CDATA[</a><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:#FF0000">【error】com.first.utils.TestNGListener: 【loginTest01】测试用例执行失败</span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:#2A00FF">【info】com.first.utils.TestNGListener: 【f1】测试用例开始执行</span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:#2A00FF">【info】com.first.utils.TestngRetry: 测试类：'com.first.utils.TestngRetry' 中的测试方法：'f1' 执行失败，重试第 1 次</span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:#FF0000">【error】com.first.utils.TestNGListener: 【f1】测试用例被跳过</span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:#2A00FF">【info】com.first.utils.TestNGListener: 【f1】测试用例开始执行</span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:#2A00FF">【info】com.first.utils.TestngRetry: 测试类：'com.first.utils.TestngRetry' 中的测试方法：'f1' 执行失败，重试第 2 次</span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:#FF0000">【error】com.first.utils.TestNGListener: 【f1】测试用例被跳过</span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:#2A00FF">【info】com.first.utils.TestNGListener: 【f1】测试用例开始执行</span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:#FF0000">【error】com.first.utils.TestNGListener: 【f1】测试用例执行失败</span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:#2A00FF">【info】com.first.utils.TestNGListener: 【f2】测试用例开始执行</span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:#2A00FF">【info】com.first.utils.TestNGListener: 【f2】测试用例执行成功</span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:#2A00FF">【info】com.first.utils.TestNGListener: 【f】测试用例开始执行</span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:#2A00FF">【info】com.first.utils.TestNGListener: 【f】测试用例执行成功</span><br />]]>
+    </line>
+  </reporter-output>
+  <suite name="suite1" duration-ms="151451" started-at="2017-03-26T10:44:40Z" finished-at="2017-03-26T10:47:12Z">
+    <groups>
+    </groups>
+    <test name="test1" duration-ms="151451" started-at="2017-03-26T10:44:40Z" finished-at="2017-03-26T10:47:12Z">
+      <class name="com.first.testcases.NewTest">
+        <test-method status="PASS" signature="f2()[pri:0, instance:com.first.testcases.NewTest@55040f2f]" name="f2" duration-ms="0" started-at="2017-03-26T18:47:07Z" finished-at="2017-03-26T18:47:07Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<span style="color:#2A00FF">【info】com.first.utils.TestNGListener: 【f2】测试用例执行成功</span><br />]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- f2 -->
+        <test-method status="SKIP" signature="f1()[pri:0, instance:com.first.testcases.NewTest@55040f2f]" name="f1" duration-ms="0" started-at="2017-03-26T18:47:07Z" finished-at="2017-03-26T18:47:07Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[断言失败]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 断言失败
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.first.utils.AssertUtils.checkIntNum(AssertUtils.java:14)
+	at com.first.testcases.NewTest.f1(NewTest.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:967)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[<span style="color:#2A00FF">【info】com.first.utils.TestngRetry: 测试类：'com.first.utils.TestngRetry' 中的测试方法：'f1' 执行失败，重试第 2 次</span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:#FF0000">【error】com.first.utils.TestNGListener: 【f1】测试用例被跳过</span><br />]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- f1 -->
+        <test-method status="SKIP" signature="f1()[pri:0, instance:com.first.testcases.NewTest@55040f2f]" name="f1" duration-ms="0" started-at="2017-03-26T18:47:07Z" finished-at="2017-03-26T18:47:07Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[断言失败]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 断言失败
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.first.utils.AssertUtils.checkIntNum(AssertUtils.java:14)
+	at com.first.testcases.NewTest.f1(NewTest.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[<span style="color:#2A00FF">【info】com.first.utils.TestngRetry: 测试类：'com.first.utils.TestngRetry' 中的测试方法：'f1' 执行失败，重试第 1 次</span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:#FF0000">【error】com.first.utils.TestNGListener: 【f1】测试用例被跳过</span><br />]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- f1 -->
+        <test-method status="FAIL" signature="f1()[pri:0, instance:com.first.testcases.NewTest@55040f2f]" name="f1" duration-ms="0" started-at="2017-03-26T18:47:07Z" finished-at="2017-03-26T18:47:07Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[断言失败]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 断言失败
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.first.utils.AssertUtils.checkIntNum(AssertUtils.java:14)
+	at com.first.testcases.NewTest.f1(NewTest.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:967)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[<span style="color:#FF0000">【error】com.first.utils.TestNGListener: 【f1】测试用例执行失败</span><br />]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- f1 -->
+      </class> <!-- com.first.testcases.NewTest -->
+      <class name="com.first.testcases.NewTest1">
+        <test-method status="PASS" signature="f()[pri:0, instance:com.first.testcases.NewTest1@64c87930]" name="f" duration-ms="16" started-at="2017-03-26T18:47:07Z" finished-at="2017-03-26T18:47:07Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<span style="color:#2A00FF">【info】com.first.utils.TestNGListener: 【f】测试用例执行成功</span><br />]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- com.first.testcases.NewTest1 -->
+      <class name="com.first.testcases.LoginTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.first.testcases.LoginTest@6ee12bac]" name="setUp" is-config="true" duration-ms="3382" started-at="2017-03-26T18:44:40Z" finished-at="2017-03-26T18:44:44Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<span style="color:#2A00FF">【info】com.first.uiframework.DriverFactory: 杀死chrome浏览器进程成功</span><br />]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.first.testcases.NewTest@55040f2f]" name="setUp" is-config="true" duration-ms="0" started-at="2017-03-26T18:44:44Z" finished-at="2017-03-26T18:44:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="loginTest01()[pri:0, instance:com.first.testcases.LoginTest@6ee12bac]" name="loginTest01" duration-ms="80178" started-at="2017-03-26T18:44:44Z" finished-at="2017-03-26T18:46:04Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[查找元素异常，退出当前测试用例]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 查找元素异常，退出当前测试用例
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.first.uiframework.WebElementUtils.getElement(WebElementUtils.java:54)
+	at com.first.uiframework.WebElementUtils$1.apply(WebElementUtils.java:63)
+	at com.first.uiframework.WebElementUtils$1.apply(WebElementUtils.java:1)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238)
+	at com.first.uiframework.WebElementUtils.findElement(WebElementUtils.java:61)
+	at com.first.uiframework.WebElementUtils.input(WebElementUtils.java:76)
+	at com.first.pages.LoginPage.inputUserName(LoginPage.java:30)
+	at com.first.actions.LoginOperate.LoginSuess(LoginOperate.java:25)
+	at com.first.actions.LoginOperate.getLoginName(LoginOperate.java:32)
+	at com.first.testcases.LoginTest.loginTest01(LoginTest.java:47)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[<span style="color:#2A00FF">【info】com.first.uiframework.DriverUtils: 打开网址：http://192.168.0.113:80/zentao</span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:#FF0000">【error】com.first.uiframework.DriverUtils: 元素：用户名输入框 识别异常</span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:#2A00FF">【info】com.first.uiframework.DriverUtils: 截图成功，图片保存路径为：F:\workspace\UITest\shot\findElementErrorImage_2017_03_26_18_46_03.png</span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<a target='_blank' href="file:F:\workspace\UITest\shot\findElementErrorImage_2017_03_26_18_46_03.png">]]>
+            </line>
+            <line>
+              <![CDATA[<img width="220" src="file:F:\workspace\UITest\shot\findElementErrorImage_2017_03_26_18_46_03.png" />    截图：C:\Users\ADMINI~1\AppData\Local\Temp\screenshot2683298712968072051.png]]>
+            </line>
+            <line>
+              <![CDATA[</a><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:#2A00FF">【info】com.first.utils.TestngRetry: 测试类：'com.first.utils.TestngRetry' 中的测试方法：'loginTest01' 执行失败，重试第 1 次</span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:#FF0000">【error】com.first.utils.TestNGListener: 【loginTest01】测试用例被跳过</span><br />]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginTest01 -->
+        <test-method status="SKIP" signature="loginTest01()[pri:0, instance:com.first.testcases.LoginTest@6ee12bac]" name="loginTest01" duration-ms="31381" started-at="2017-03-26T18:46:04Z" finished-at="2017-03-26T18:46:35Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[查找元素异常，退出当前测试用例]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 查找元素异常，退出当前测试用例
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.first.uiframework.WebElementUtils.getElement(WebElementUtils.java:54)
+	at com.first.uiframework.WebElementUtils$1.apply(WebElementUtils.java:63)
+	at com.first.uiframework.WebElementUtils$1.apply(WebElementUtils.java:1)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238)
+	at com.first.uiframework.WebElementUtils.findElement(WebElementUtils.java:61)
+	at com.first.uiframework.WebElementUtils.input(WebElementUtils.java:76)
+	at com.first.pages.LoginPage.inputUserName(LoginPage.java:30)
+	at com.first.actions.LoginOperate.LoginSuess(LoginOperate.java:25)
+	at com.first.actions.LoginOperate.getLoginName(LoginOperate.java:32)
+	at com.first.testcases.LoginTest.loginTest01(LoginTest.java:47)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:967)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[<span style="color:#2A00FF">【info】com.first.uiframework.DriverUtils: 打开网址：http://192.168.0.113:80/zentao</span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:#FF0000">【error】com.first.uiframework.DriverUtils: 元素：用户名输入框 识别异常</span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:#2A00FF">【info】com.first.uiframework.DriverUtils: 截图成功，图片保存路径为：F:\workspace\UITest\shot\findElementErrorImage_2017_03_26_18_46_35.png</span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<a target='_blank' href="file:F:\workspace\UITest\shot\findElementErrorImage_2017_03_26_18_46_35.png">]]>
+            </line>
+            <line>
+              <![CDATA[<img width="220" src="file:F:\workspace\UITest\shot\findElementErrorImage_2017_03_26_18_46_35.png" />    截图：C:\Users\ADMINI~1\AppData\Local\Temp\screenshot3987079852622025879.png]]>
+            </line>
+            <line>
+              <![CDATA[</a><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:#2A00FF">【info】com.first.utils.TestngRetry: 测试类：'com.first.utils.TestngRetry' 中的测试方法：'loginTest01' 执行失败，重试第 2 次</span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:#FF0000">【error】com.first.utils.TestNGListener: 【loginTest01】测试用例被跳过</span><br />]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginTest01 -->
+        <test-method status="FAIL" signature="loginTest01()[pri:0, instance:com.first.testcases.LoginTest@6ee12bac]" name="loginTest01" duration-ms="31330" started-at="2017-03-26T18:46:35Z" finished-at="2017-03-26T18:47:07Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[查找元素异常，退出当前测试用例]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 查找元素异常，退出当前测试用例
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.first.uiframework.WebElementUtils.getElement(WebElementUtils.java:54)
+	at com.first.uiframework.WebElementUtils$1.apply(WebElementUtils.java:63)
+	at com.first.uiframework.WebElementUtils$1.apply(WebElementUtils.java:1)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238)
+	at com.first.uiframework.WebElementUtils.findElement(WebElementUtils.java:61)
+	at com.first.uiframework.WebElementUtils.input(WebElementUtils.java:76)
+	at com.first.pages.LoginPage.inputUserName(LoginPage.java:30)
+	at com.first.actions.LoginOperate.LoginSuess(LoginOperate.java:25)
+	at com.first.actions.LoginOperate.getLoginName(LoginOperate.java:32)
+	at com.first.testcases.LoginTest.loginTest01(LoginTest.java:47)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:967)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[<span style="color:#2A00FF">【info】com.first.uiframework.DriverUtils: 打开网址：http://192.168.0.113:80/zentao</span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:#FF0000">【error】com.first.uiframework.DriverUtils: 元素：用户名输入框 识别异常</span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:#2A00FF">【info】com.first.uiframework.DriverUtils: 截图成功，图片保存路径为：F:\workspace\UITest\shot\findElementErrorImage_2017_03_26_18_47_07.png</span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<a target='_blank' href="file:F:\workspace\UITest\shot\findElementErrorImage_2017_03_26_18_47_07.png">]]>
+            </line>
+            <line>
+              <![CDATA[<img width="220" src="file:F:\workspace\UITest\shot\findElementErrorImage_2017_03_26_18_47_07.png" />    截图：C:\Users\ADMINI~1\AppData\Local\Temp\screenshot5559388342293990366.png]]>
+            </line>
+            <line>
+              <![CDATA[</a><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:#FF0000">【error】com.first.utils.TestNGListener: 【loginTest01】测试用例执行失败</span><br />]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginTest01 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.first.testcases.LoginTest@6ee12bac]" name="tearDown" is-config="true" duration-ms="5116" started-at="2017-03-26T18:47:07Z" finished-at="2017-03-26T18:47:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.first.testcases.NewTest@55040f2f]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-03-26T18:47:12Z" finished-at="2017-03-26T18:47:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.first.testcases.LoginTest -->
+    </test> <!-- test1 -->
+  </suite> <!-- suite1 -->
+</testng-results>

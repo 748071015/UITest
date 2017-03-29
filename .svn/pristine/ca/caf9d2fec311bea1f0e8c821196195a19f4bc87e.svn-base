@@ -1,0 +1,30 @@
+package com.first.demo;
+
+import org.openqa.selenium.WebDriver;
+
+public class DriverUtils {
+	
+	protected  WebDriver driver;
+	
+	public DriverUtils(WebDriver dr){
+		driver = dr;
+	}
+	
+	public void openWeb(String url){
+		driver.get(url);
+	}
+	
+	public void back(){
+		driver.navigate().back();
+	}
+	
+	public void forword(){
+		driver.navigate().forward();
+	}
+	
+	public void refresh(){
+		driver.navigate().refresh();
+	}
+	
+
+}

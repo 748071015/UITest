@@ -1,0 +1,175 @@
+<html>
+<head>
+<title>TestNG:  test1</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>test1</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>0/0/5</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Mar 24 14:38:10 CST 2017</td>
+</tr>
+<tr><td>Total time:</td><td>1 seconds (1984 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.first.testcases.LoginTest.setUp()'><b>setUp</b><br>Test class: com.first.testcases.LoginTest<br/>
+<a href="#Output-2025269734" onClick='toggleBox("Output-2025269734", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2025269734" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2025269734">
+<span style="color:#2A00FF">【info】com.first.uiframework.DriverFactory: 杀死chrome浏览器进程成功</span><br /><br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: 测试初始化报错
+	at com.first.testcases.LoginTest.setUp(LoginTest.java:30)
+... Removed 23 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2025269734", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2025269734'><pre>java.lang.AssertionError: 测试初始化报错
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.first.testcases.LoginTest.setUp(LoginTest.java:30)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:514)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:215)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:656)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+</pre></div></td>
+<td>0</td>
+<td>null</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.first.testcases.LoginTest.setUp()'><b>setUp</b><br>Test class: com.first.testcases.LoginTest</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.first.testcases.LoginTest.tearDown()'><b>tearDown</b><br>Test class: com.first.testcases.LoginTest</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.first.testcases.LoginTest.tearDown()'><b>tearDown</b><br>Test class: com.first.testcases.LoginTest</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.first.testcases.NewTest1.f()'><b>f</b><br>Test class: com.first.testcases.NewTest1</td>
+<td></td>
+<td>0</td>
+<td>com.first.testcases.NewTest1@58651fd0</td></tr>
+<tr>
+<td title='com.first.testcases.NewTest.f1()'><b>f1</b><br>Test class: com.first.testcases.NewTest</td>
+<td></td>
+<td>0</td>
+<td>com.first.testcases.NewTest@735b5592</td></tr>
+<tr>
+<td title='com.first.testcases.NewTest.f2()'><b>f2</b><br>Test class: com.first.testcases.NewTest</td>
+<td></td>
+<td>0</td>
+<td>com.first.testcases.NewTest@735b5592</td></tr>
+<tr>
+<td title='com.first.testcases.LoginTest.loginTest01()'><b>loginTest01</b><br>Test class: com.first.testcases.LoginTest</td>
+<td></td>
+<td>0</td>
+<td>com.first.testcases.LoginTest@62ee68d8</td></tr>
+<tr>
+<td title='com.first.testcases.LoginTest.loginTest02()'><b>loginTest02</b><br>Test class: com.first.testcases.LoginTest</td>
+<td></td>
+<td>0</td>
+<td>com.first.testcases.LoginTest@62ee68d8</td></tr>
+</table><p>
+</body>
+</html>

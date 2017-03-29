@@ -1,0 +1,84 @@
+package com.first.demo;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedCondition;
+import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+public class WebElemntUtils extends DriverUtils{
+
+	public WebElemntUtils(WebDriver dr) {
+		super(dr);
+	}
+	
+	//查找元素xpath\css\id\name\classname
+	//点击、输入、提交、获取元素属性、获取元素文本、下拉框选择
+	public WebElement getElement(String by,String locatorValue){
+		WebElement el;
+		switch(by){
+			case "id":	
+				el = driver.findElement(By.id(locatorValue));
+				break;
+			case "name":
+				el = driver.findElement(By.name(locatorValue));
+				break;
+			case "xpath":
+				el = driver.findElement(By.xpath(locatorValue));
+				break;
+			case "css":
+				el = driver.findElement(By.cssSelector(locatorValue));
+				break;
+			default:
+				el = driver.findElement(By.cssSelector(locatorValue));		
+		}
+		return el;		
+	}
+	
+	protected WebElement findElement(String by,String locatorValue){
+		WebDriverWait wait = new WebDriverWait(driver, 10);
+		WebElement el = wait.until(new ExpectedCondition<WebElement>() {   
+            public WebElement apply(WebDriver d) {
+                return getElement(by,locatorValue);  
+//                return driver.findElement(By.cssSelector("..."));
+            }  
+        });
+		return el;
+	}
+	
+	public void click(WebElement el){
+		el.click();
+	}
+	
+	public void input(WebElement el,String value){
+		el.sendKeys(value);
+	}
+	
+	public void summit(WebElement el){
+		el.submit();
+	}
+	
+	public String getAttriue(WebElement el,String key){
+		return el.getAttribute(key);
+	}
+
+	public String getText(WebElement el){
+		return el.getText();
+	}
+	
+	public void selectByIndex(WebElement el,int index){
+		Select select = new Select(el);
+		select.selectByIndex(index);
+	}
+	
+	public void selectByText(WebElement el,String text){
+		Select select = new Select(el);
+		select.selectByVisibleText(text);
+	}
+	
+	public void selectByValue(WebElement el,String value){
+		Select select = new Select(el);
+		select.selectByValue(value);
+	}
+}

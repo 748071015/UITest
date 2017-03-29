@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="" lang="">
+<head>
+  <title>Test Results Report - Log Output</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="description" content="TestNG unit test results." />
+  <link href="reportng.css" rel="stylesheet" type="text/css" />
+  </head>
+<body>
+  <h1>Log Output</h1>
+  <p>
+    Combined output from all calls to the log methods of the <a href="http://testng.org/javadocs/org/testng/Reporter.html">TestNG Reporter</a>.    
+  </p>
+
+  <div id="log">
+                  <span style="color:#2A00FF">【info】com.first.uiframework.DriverFactory: 杀死chrome浏览器进程成功</span><br />
+                        <span style="color:#2A00FF">【info】com.first.uiframework.DriverUtils: 打开网址：http://192.168.0.113:80/zentao</span><br />
+                        <span style="color:#2A00FF">【info】com.first.uiframework.DriverUtils: 在元素  用户名输入框 输入：admin</span><br />
+                        <span style="color:#2A00FF">【info】com.first.uiframework.DriverUtils: 在元素  密码输入框 输入：123456</span><br />
+                        <span style="color:#2A00FF">【info】com.first.uiframework.DriverUtils: 点击元素  登录按钮</span><br />
+                        <span style="color:#FF0000">【error】com.first.uiframework.DriverUtils: 元素：用户菜单 识别异常</span><br />
+                        <span style="color:#2A00FF">【info】com.first.uiframework.DriverUtils: 截图成功，图片保存路径为：D:\android_workspace\T54.5UITest\shot\findElementErrorImage_2017_03_24_10_02_35.png</span><br />
+                        <a target='_blank' href="file:D:\android_workspace\T54.5UITest\shot\findElementErrorImage_2017_03_24_10_02_35.png">
+                        <img width="220" src="file:D:\android_workspace\T54.5UITest\shot\findElementErrorImage_2017_03_24_10_02_35.png" />    截图：C:\Users\ADMINI~1\AppData\Local\Temp\1\screenshot4142239505890294319.png
+                        </a><br />
+                        <span style="color:#2A00FF">【info】com.first.uiframework.DriverUtils: 打开网址：http://192.168.0.113:80/zentao</span><br />
+                        <span style="color:#FF0000">【error】com.first.uiframework.DriverUtils: 元素：用户名输入框 识别异常</span><br />
+                        <span style="color:#2A00FF">【info】com.first.uiframework.DriverUtils: 截图成功，图片保存路径为：D:\android_workspace\T54.5UITest\shot\findElementErrorImage_2017_03_24_10_02_47.png</span><br />
+                        <a target='_blank' href="file:D:\android_workspace\T54.5UITest\shot\findElementErrorImage_2017_03_24_10_02_47.png">
+                        <img width="220" src="file:D:\android_workspace\T54.5UITest\shot\findElementErrorImage_2017_03_24_10_02_47.png" />    截图：C:\Users\ADMINI~1\AppData\Local\Temp\1\screenshot7336280322563961270.png
+                        </a><br />
+            </div>
+
+</body>
+</html>

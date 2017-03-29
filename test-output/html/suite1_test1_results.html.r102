@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="" lang="">
+<head>
+  <title>Test Results Report - test1</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="description" content="TestNG unit test results." />
+  <link href="reportng.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="reportng.js"></script>
+</head>
+<body>
+<h1>test1</h1>
+<p>
+  Test duration: 50.382s
+</p>
+
+
+
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header failed">Failed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">com.first.testcases.LoginTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  loginTest01
+      </td>
+  <td class="duration">
+    11.747s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        <span style="color:#2A00FF">【info】com.first.uiframework.DriverUtils: 打开网址：http://192.168.0.113:80/zentao</span><br />
+                                <span style="color:#FF0000">【error】com.first.uiframework.DriverUtils: 元素：用户名输入框 识别异常</span><br />
+                                <span style="color:#2A00FF">【info】com.first.uiframework.DriverUtils: 截图成功，图片保存路径为：D:\android_workspace\T54.5UITest\shot\findElementErrorImage_2017_03_24_15_54_25.png</span><br />
+                                <a target='_blank' href="file:D:\android_workspace\T54.5UITest\shot\findElementErrorImage_2017_03_24_15_54_25.png">
+                                <img width="220" src="file:D:\android_workspace\T54.5UITest\shot\findElementErrorImage_2017_03_24_15_54_25.png" />    截图：C:\Users\ADMINI~1\AppData\Local\Temp\screenshot6173453105669518221.png
+                                </a><br />
+                                <span style="color:#FF0000">【error】com.first.utils.TestNGListener: 【loginTest01】测试用例执行失败</span><br />
+                  </div>
+    
+
+        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>java.lang.AssertionError: 查找元素异常，退出当前测试用例</b></a><br />
+    <div class="stackTrace" id="exception-0">
+              org.testng.Assert.fail(Assert.java:94)<br />
+              com.first.uiframework.WebElementUtils.getElement(WebElementUtils.java:54)<br />
+              com.first.uiframework.WebElementUtils$1.apply(WebElementUtils.java:63)<br />
+              com.first.uiframework.WebElementUtils$1.apply(WebElementUtils.java:1)<br />
+              org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238)<br />
+              com.first.uiframework.WebElementUtils.findElement(WebElementUtils.java:61)<br />
+              com.first.uiframework.WebElementUtils.input(WebElementUtils.java:76)<br />
+              com.first.pages.LoginPage.inputUserName(LoginPage.java:30)<br />
+              com.first.actions.LoginOperate.LoginSuess(LoginOperate.java:25)<br />
+              com.first.actions.LoginOperate.getLoginName(LoginOperate.java:32)<br />
+              com.first.testcases.LoginTest.loginTest01(LoginTest.java:45)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
+              java.lang.reflect.Method.invoke(Unknown Source)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:643)<br />
+              org.testng.internal.Invoker.retryFailed(Invoker.java:967)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1146)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:782)<br />
+              org.testng.TestRunner.run(TestRunner.java:632)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:366)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:268)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1169)<br />
+              org.testng.TestNG.run(TestNG.java:1064)<br />
+              org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)<br />
+              org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)<br />
+              org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)<br />
+                </div>
+      </td>
+</tr>
+      </table>
+
+  <table class="resultsTable" width="100%">
+    <tr><th colspan="3" class="header skipped">Skipped Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">com.first.testcases.LoginTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  loginTest01
+      </td>
+  <td class="duration">
+    19.067s
+  </td>
+  <td class="result">
+                               
+    
+            <div class="testOutput">
+                        <span style="color:#2A00FF">【info】com.first.uiframework.DriverUtils: 打开网址：http://192.168.0.113:80/zentao</span><br />
+                                <span style="color:#2A00FF">【info】com.first.uiframework.DriverUtils: 在元素  用户名输入框 输入：admin</span><br />
+                                <span style="color:#2A00FF">【info】com.first.uiframework.DriverUtils: 在元素  密码输入框 输入：123456</span><br />
+                                <span style="color:#2A00FF">【info】com.first.uiframework.DriverUtils: 点击元素  登录按钮</span><br />
+                                <span style="color:#FF0000">【error】com.first.uiframework.DriverUtils: 元素：用户菜单 识别异常</span><br />
+                                <span style="color:#2A00FF">【info】com.first.uiframework.DriverUtils: 截图成功，图片保存路径为：D:\android_workspace\T54.5UITest\shot\findElementErrorImage_2017_03_24_15_54_01.png</span><br />
+                                <a target='_blank' href="file:D:\android_workspace\T54.5UITest\shot\findElementErrorImage_2017_03_24_15_54_01.png">
+                                <img width="220" src="file:D:\android_workspace\T54.5UITest\shot\findElementErrorImage_2017_03_24_15_54_01.png" />    截图：C:\Users\ADMINI~1\AppData\Local\Temp\screenshot7177302647369068366.png
+                                </a><br />
+                                <span style="color:#2A00FF">【info】com.first.utils.TestngRetry: 测试类：'com.first.utils.TestngRetry' 中的测试方法：'loginTest01' 执行失败，重试第 1 次</span><br />
+                                <span style="color:#FF0000">【error】com.first.utils.TestNGListener: 【loginTest01】测试用例被跳过</span><br />
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  loginTest01
+      </td>
+  <td class="duration">
+    11.758s
+  </td>
+  <td class="result">
+                               
+    
+            <div class="testOutput">
+                        <span style="color:#2A00FF">【info】com.first.uiframework.DriverUtils: 打开网址：http://192.168.0.113:80/zentao</span><br />
+                                <span style="color:#FF0000">【error】com.first.uiframework.DriverUtils: 元素：用户名输入框 识别异常</span><br />
+                                <span style="color:#2A00FF">【info】com.first.uiframework.DriverUtils: 截图成功，图片保存路径为：D:\android_workspace\T54.5UITest\shot\findElementErrorImage_2017_03_24_15_54_13.png</span><br />
+                                <a target='_blank' href="file:D:\android_workspace\T54.5UITest\shot\findElementErrorImage_2017_03_24_15_54_13.png">
+                                <img width="220" src="file:D:\android_workspace\T54.5UITest\shot\findElementErrorImage_2017_03_24_15_54_13.png" />    截图：C:\Users\ADMINI~1\AppData\Local\Temp\screenshot4000100080877429730.png
+                                </a><br />
+                                <span style="color:#2A00FF">【info】com.first.utils.TestngRetry: 测试类：'com.first.utils.TestngRetry' 中的测试方法：'loginTest01' 执行失败，重试第 2 次</span><br />
+                                <span style="color:#FF0000">【error】com.first.utils.TestNGListener: 【loginTest01】测试用例被跳过</span><br />
+                  </div>
+    
+
+      </td>
+</tr>
+      </table>
+
+  
+</body>
+</html>

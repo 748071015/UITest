@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page name="登录页面"><!-- 登录页面 -->
+	    <locator name="用户菜单" type="css" value="div#userMenu" timeout="5">userMenu</locator>
+</page>

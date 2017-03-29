@@ -1,0 +1,54 @@
+package com.first.pages;
+
+import org.dom4j.DocumentException;
+import org.openqa.selenium.Alert;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+import com.first.config.LocalConfig;
+import com.first.uiframework.BasePage;
+import com.first.uiframework.Locator;
+import com.first.uiframework.MouseUtils;
+import com.first.utils.xmlUtils;
+
+public class LoginPage extends BasePage{
+	
+	private Alert alert;
+
+
+	public LoginPage(WebDriver dr) throws DocumentException{
+		super(dr);
+		openWeb(LocalConfig.URL);
+	}
+	
+	Locator usernameInputbox = getLocator("usernameInputbox");
+	Locator passwordInputbox = getLocator("passwordInputbox");			
+	Locator loginButton = getLocator("loginButton");
+	
+	public MainPage loginOperate(String name,String password) throws DocumentException{
+		input(usernameInputbox,name);  //usernameInputBox.sendKeys(name);
+		input(passwordInputbox,password);
+		click(loginButton);
+		return new MainPage(driver);
+	}
+	
+	public String loginFailOperate(String name,String password){
+		input(usernameInputbox,name);  //usernameInputBox.sendKeys(name);
+		input(passwordInputbox,password);
+		click(loginButton);
+		wait(2);
+		String value = getalertText();
+		alertAccept();
+		return value;
+	}
+	
+	public void aaa(){
+		MouseUtils mouse = new MouseUtils(driver);
+		mouse.doubleClick(findElement(loginButton));
+	}
+	
+	public void bbb(){
+		mouse.doubleClick(findElement(loginButton));
+	}
+}

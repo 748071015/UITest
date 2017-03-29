@@ -1,0 +1,57 @@
+package com.first.demo;
+
+import org.openqa.selenium.Alert;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+public class LoginPage extends BasePage{
+	
+	private WebElement usernameInputBox;
+	private WebElement passwordInputBox;
+	private WebElement loginButton;
+	private Alert alert;
+	
+	public WebDriver getDriver() {
+		return driver;
+	}
+
+	public LoginPage(WebDriver dr){
+		super(dr);
+		openWeb(LocalConfig.URL);
+		usernameInputBox = findElement("css","input#account");
+		passwordInputBox = findElement("css","input[name='password']");
+		loginButton = findElement("css","button#submit");
+	}
+	
+	public MainPage loginOperate(String name,String password){
+		input(usernameInputBox,name);
+		input(passwordInputBox,password);
+		click(loginButton);
+		return new MainPage(getDriver());
+	}
+	
+	public String loginFailOperate(String name,String password){
+		input(usernameInputBox,name);
+		input(passwordInputBox,password);
+		click(loginButton);
+		wait(2);
+		alert= driver.switchTo().alert();
+		String value = alert.getText();
+		alert.accept();
+		return value;
+	}
+	
+	public void a(){
+		MouseUtils m = new MouseUtils(driver);
+		m.doubleClick(loginButton);
+	}
+	
+	public void b(){
+		mouse.doubleClick(loginButton);
+		keyBoard.pressDownKey(10);
+	}
+	
+
+
+}

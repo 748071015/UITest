@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page name="登录页面"><!-- 登录页面 -->
+	    <locator name="用户名输入框" type="css" value="input#account" timeout="5">usernameInputbox</locator>
+	    <locator name="密码输入框" type="css" value="input[name='password']" timeout="5">passwordInputbox</locator>
+	    <locator name="登录按钮" type="css" value="button#submit" timeout="5">loginButton</locator>
+	    <locator name="语言设置按钮" type="css" value="div#langs>button.btn" timeout="5">languageButton</locator>
+	    <locator name="切换英语链接" type="css" value="div#langs>ul li:nth-child(3)" timeout="5">englishLink</locator>
+	    <locator name="切换繁体链接" type="css" value="div#langs>ul li:nth-child(2)" timeout="5">fantiLink</locator>	    
+	    <locator name="手机访问" type="css" value="i.icon-mobile" timeout="5">phoneLink</locator>
+        <locator name="保持登录" type="css" value="type#keepLoginon" timeout="5">keepLogin</locator>
+        <locator name="忘记密码" type="css" value="a[href='/zentao/user-reset.html']" timeout="5">forgetPassword</locator>
+        <locator name="admin" type="css" value="div#userMenu" timeout="5">userLink</locator>
+</page>

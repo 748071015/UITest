@@ -1,0 +1,204 @@
+<html>
+<head>
+<title>TestNG:  test1</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>test1</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>0/2/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Mar 24 10:02:12 CST 2017</td>
+</tr>
+<tr><td>Total time:</td><td>38 seconds (38796 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.first.testcases.LoginTest.loginTest01()'><b>loginTest01</b><br>Test class: com.first.testcases.LoginTest<br/>
+<a href="#Output-2143139988" onClick='toggleBox("Output-2143139988", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2143139988" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2143139988">
+<span style="color:#2A00FF">【info】com.first.uiframework.DriverUtils: 打开网址：http://192.168.0.113:80/zentao</span><br /><br/>
+<span style="color:#2A00FF">【info】com.first.uiframework.DriverUtils: 在元素  用户名输入框 输入：admin</span><br /><br/>
+<span style="color:#2A00FF">【info】com.first.uiframework.DriverUtils: 在元素  密码输入框 输入：123456</span><br /><br/>
+<span style="color:#2A00FF">【info】com.first.uiframework.DriverUtils: 点击元素  登录按钮</span><br /><br/>
+<span style="color:#FF0000">【error】com.first.uiframework.DriverUtils: 元素：用户菜单 识别异常</span><br /><br/>
+<span style="color:#2A00FF">【info】com.first.uiframework.DriverUtils: 截图成功，图片保存路径为：D:\android_workspace\T54.5UITest\shot\findElementErrorImage_2017_03_24_10_02_35.png</span><br /><br/>
+<a target='_blank' href="file:D:\android_workspace\T54.5UITest\shot\findElementErrorImage_2017_03_24_10_02_35.png"><br/>
+<img width="220" src="file:D:\android_workspace\T54.5UITest\shot\findElementErrorImage_2017_03_24_10_02_35.png" />    截图：C:\Users\ADMINI~1\AppData\Local\Temp\1\screenshot4142239505890294319.png<br/>
+</a><br /><br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: 查找元素异常，退出当前测试用例
+	at com.first.uiframework.WebElementUtils.getElement(WebElementUtils.java:50)
+	at com.first.uiframework.WebElementUtils$1.apply(WebElementUtils.java:59)
+	at com.first.uiframework.WebElementUtils$1.apply(WebElementUtils.java:1)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238)
+	at com.first.uiframework.WebElementUtils.findElement(WebElementUtils.java:57)
+	at com.first.uiframework.WebElementUtils.getText(WebElementUtils.java:83)
+	at com.first.pages.MainPage.getLoginUserName(MainPage.java:23)
+	at com.first.testcases.LoginTest.loginTest01(LoginTest.java:37)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2143139988", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2143139988'><pre>java.lang.AssertionError: 查找元素异常，退出当前测试用例
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.first.uiframework.WebElementUtils.getElement(WebElementUtils.java:50)
+	at com.first.uiframework.WebElementUtils$1.apply(WebElementUtils.java:59)
+	at com.first.uiframework.WebElementUtils$1.apply(WebElementUtils.java:1)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238)
+	at com.first.uiframework.WebElementUtils.findElement(WebElementUtils.java:57)
+	at com.first.uiframework.WebElementUtils.getText(WebElementUtils.java:83)
+	at com.first.pages.MainPage.getLoginUserName(MainPage.java:23)
+	at com.first.testcases.LoginTest.loginTest01(LoginTest.java:37)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+</pre></div></td>
+<td>18</td>
+<td>com.first.testcases.LoginTest@51081592</td></tr>
+<tr>
+<td title='com.first.testcases.LoginTest.loginTest02()'><b>loginTest02</b><br>Test class: com.first.testcases.LoginTest<br/>
+<a href="#Output-998062648" onClick='toggleBox("Output-998062648", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-998062648" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-998062648">
+<span style="color:#2A00FF">【info】com.first.uiframework.DriverUtils: 打开网址：http://192.168.0.113:80/zentao</span><br /><br/>
+<span style="color:#FF0000">【error】com.first.uiframework.DriverUtils: 元素：用户名输入框 识别异常</span><br /><br/>
+<span style="color:#2A00FF">【info】com.first.uiframework.DriverUtils: 截图成功，图片保存路径为：D:\android_workspace\T54.5UITest\shot\findElementErrorImage_2017_03_24_10_02_47.png</span><br /><br/>
+<a target='_blank' href="file:D:\android_workspace\T54.5UITest\shot\findElementErrorImage_2017_03_24_10_02_47.png"><br/>
+<img width="220" src="file:D:\android_workspace\T54.5UITest\shot\findElementErrorImage_2017_03_24_10_02_47.png" />    截图：C:\Users\ADMINI~1\AppData\Local\Temp\1\screenshot7336280322563961270.png<br/>
+</a><br /><br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: 查找元素异常，退出当前测试用例
+	at com.first.uiframework.WebElementUtils.getElement(WebElementUtils.java:50)
+	at com.first.uiframework.WebElementUtils$1.apply(WebElementUtils.java:59)
+	at com.first.uiframework.WebElementUtils$1.apply(WebElementUtils.java:1)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238)
+	at com.first.uiframework.WebElementUtils.findElement(WebElementUtils.java:57)
+	at com.first.uiframework.WebElementUtils.input(WebElementUtils.java:72)
+	at com.first.pages.LoginPage.loginFailOperate(LoginPage.java:37)
+	at com.first.testcases.LoginTest.loginTest02(LoginTest.java:43)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace998062648", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace998062648'><pre>java.lang.AssertionError: 查找元素异常，退出当前测试用例
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.first.uiframework.WebElementUtils.getElement(WebElementUtils.java:50)
+	at com.first.uiframework.WebElementUtils$1.apply(WebElementUtils.java:59)
+	at com.first.uiframework.WebElementUtils$1.apply(WebElementUtils.java:1)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238)
+	at com.first.uiframework.WebElementUtils.findElement(WebElementUtils.java:57)
+	at com.first.uiframework.WebElementUtils.input(WebElementUtils.java:72)
+	at com.first.pages.LoginPage.loginFailOperate(LoginPage.java:37)
+	at com.first.testcases.LoginTest.loginTest02(LoginTest.java:43)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+</pre></div></td>
+<td>11</td>
+<td>com.first.testcases.LoginTest@51081592</td></tr>
+</table><p>
+</body>
+</html>

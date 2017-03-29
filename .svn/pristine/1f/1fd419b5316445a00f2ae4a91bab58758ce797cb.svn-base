@@ -1,0 +1,54 @@
+package com.first.pages;
+
+import org.openqa.selenium.Alert;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+import com.first.config.LocalConfig;
+import com.first.uiframework.BasePage;
+import com.first.uiframework.MouseUtils;
+
+public class LoginPage extends BasePage{
+	
+	private WebElement usernameInputBox;
+	private WebElement passwordInputBox;
+	private WebElement loginButton;
+	private Alert alert;
+
+
+	public LoginPage(WebDriver dr){
+		super(dr);
+		openWeb(LocalConfig.URL);
+		usernameInputBox = findElement("css","input#account");
+		passwordInputBox = findElement("css", "input[name='password']");		
+		loginButton = findElement("css","button#submit");
+
+	}
+	
+	public MainPage loginOperate(String name,String password){
+		input(usernameInputBox,name);  //usernameInputBox.sendKeys(name);
+		input(passwordInputBox,password);
+		click(loginButton);
+		return new MainPage(driver);
+	}
+	
+	public String loginFailOperate(String name,String password){
+		input(usernameInputBox,name);  //usernameInputBox.sendKeys(name);
+		input(passwordInputBox,password);
+		click(loginButton);
+		wait(2);
+		String value = getalertText();
+		alertAccept();
+		return value;
+	}
+	
+	public void aaa(){
+		MouseUtils mouse = new MouseUtils(driver);
+		mouse.doubleClick(loginButton);
+	}
+	
+	public void bbb(){
+		mouse.doubleClick(loginButton);
+	}
+}

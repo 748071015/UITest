@@ -1,0 +1,48 @@
+package com.first.testcases;
+
+import java.util.concurrent.TimeUnit;
+
+import org.dom4j.DocumentException;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Assert;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+
+import com.first.pages.LoginPage;
+import com.first.pages.MainPage;
+import com.first.utils.AssertUtils;
+
+public class LoginTest {
+	
+	WebDriver driver;
+	AssertUtils assertUtils; 
+	
+	@BeforeTest
+	public void setUp(){
+		assertUtils = new AssertUtils();
+		driver = new ChromeDriver();
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+	}
+    @Test
+    public void loginTest01() throws DocumentException {
+		LoginPage lp = new LoginPage(driver);
+		MainPage mp = lp.loginOperate("admin", "123456");
+		String value = mp.getLoginUserName();
+		Assert.assertEquals(value.contains("admin"), true,"登录测试失败");
+    }
+    @Test
+    public void loginTest02() throws InterruptedException, DocumentException{
+    	LoginPage lp = new LoginPage(driver);
+    	String value = lp.loginFailOperate("admin", "123");    	
+    	assertUtils.checkStringContains(value, "登录失败", "登录测试失败");
+//    	Assert.assertEquals(value.contains("登录失败"), true,"登录测试失败");
+    }
+
+    @AfterTest
+    public void tearDown() throws InterruptedException{
+    	Thread.sleep(3000);
+    	driver.close();
+    }
+}

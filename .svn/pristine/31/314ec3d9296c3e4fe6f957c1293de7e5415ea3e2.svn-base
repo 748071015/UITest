@@ -1,0 +1,23 @@
+package com.first.pages;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+import com.first.uiframework.BasePage;
+
+public class MainPage extends BasePage{
+	
+	private WebElement userMenu;
+	
+	public MainPage(WebDriver dr){
+		super(dr);
+		this.userMenu = findElement("css","div#userMenu");
+	}
+	
+	public String getLoginUserName(){
+		wait(2);
+		return getText(userMenu);
+	}
+
+}

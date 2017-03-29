@@ -1,0 +1,12 @@
+#URL地址
+url = http://192.168.0.113:80/zentao
+
+#ChromeDriver路径
+chromeDriverPath = \\Driver\\chromedriver.exe
+
+#FireFoxDriver路径
+fireFoxDriverPath = \\Driver\\geckodriver.exe
+
+#IeDriver路径
+ieDriverPath = \\Driver\\IEDriverServer.exe
+

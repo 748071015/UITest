@@ -1,0 +1,42 @@
+package com.first.uiframework;
+
+import org.openqa.selenium.WebDriver;
+
+public class DriverUtils {
+	
+	protected  WebDriver driver;
+	protected static MouseUtils mouse;
+	protected static KeyBoardUtils keyboard;
+	
+	
+	public DriverUtils(WebDriver dr){
+		driver = dr;
+		mouse = new MouseUtils(driver);
+		keyboard = new KeyBoardUtils(driver);
+	}
+	
+	public void openWeb(String url){
+		driver.get(url);
+	}
+	
+	public void back(){
+		driver.navigate().back();
+	}
+	
+	public void forword(){
+		driver.navigate().forward();
+	}
+	
+	public void refresh(){
+		driver.navigate().refresh();
+	}
+	
+	public void wait(int seconds){
+		try {
+			Thread.sleep(seconds * 1000);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+	}
+
+}
